@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Kuliner</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="tubes.css">
+</head>
+<body>
+    <div>
+        <h1 id="judul">Kuliner Semarang</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Kategori
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Halal</a></li>
+                        <li><a class="dropdown-item" href="#">Non Halal</a></li>
+                        <li><a class="dropdown-item" href="#">Jajanan</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="content">
+        <div id="imgCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/bandeng.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-white">
+                <h5>Bandeng Presto</h5>
+                <p>A stunning cliffside temple with ocean views.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/lumpia.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-white">
+                <h5>Lumpia</h5>
+                <p>Lush green rice fields in Ubud.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/mochi.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-white">
+                <h5>Mochi</h5>
+                <p>Experience traditional Balinese performances.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Card Grid Section -->
+    <div class="container my-5">
+        <!-- Foods -->
+        <h2 id="makan" class="...">Halal</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+            <div class="card h-100">
+                <img src="img/nasiayam.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Nasi Ayam</h5>
+                <p class="card-text">Suckling pig roasted with Balinese spices.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card h-100">
+                <img src="img/nasigandul.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Nasi Gandul</h5>
+                <p class="card-text">Minced meat satay wrapped around bamboo sticks.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card h-100">
+                <img src="/img/nasi_campur.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Nasi Campur</h5>
+                <p class="card-text">Mixed rice with various Balinese side dishes.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Cultures -->
+        <h2 id="kultur" class="...">Cultures</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+            <div class="card h-100">
+                <img src="/img/kecak_dance.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Kecak Dance</h5>
+                <p class="card-text">A dramatic fire dance narrating the Ramayana epic.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card h-100">
+                <img src="/img/canang_sari.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Canang Sari</h5>
+                <p class="card-text">Daily offerings made to Hindu Gods.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card h-100">
+                <img src="/img/ngaben.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Ngaben Ceremony</h5>
+                <p class="card-text">A vibrant cremation ritual celebrating the soul’s journey.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Card Grid Section -->
+    </div>
+    
+</body>
+</html>
