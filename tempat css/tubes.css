@@ -11,10 +11,17 @@ header{
     justify-items: center;
     position: fixed;
     z-index: 100;
-    top: 0;
+    top: 10px;
     left: 0;
-    width: 100%;
+    right: 10px;
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 body{
     padding-top: 100px;
     text-align: center;
@@ -22,7 +29,7 @@ body{
     color: #222
 }
 #logo img{
-    height: 80px;
+    height: 56px;
     width: auto;
     z-index: 1;
 }
@@ -62,7 +69,6 @@ body{
     border-radius: 10px;
     text-align: center;
     animation: fadeIn 1s ease-in-out;
-
 }
 
 #jelajahi{

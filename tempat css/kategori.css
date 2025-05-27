@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    justify-items: center;
+    position: fixed;
+    z-index: 100;
+    top: 10px;
+    left: 0;
+    right: 10px;
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+#logo img{
+    height: 56px;
+    width: auto;
+    z-index: 1;
+}
