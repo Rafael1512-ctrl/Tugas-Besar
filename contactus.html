@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="contactus.css">
+    <script src="contactus.js"></script>
+</head>
+<body>
+    <div id="logo"><img src="img/logo.png" alt=""></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kategori</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Halal</a></li>
+                        <li><a class="dropdown-item" href="#">Non Halal</a></li>
+                        <li><a class="dropdown-item" href="#">Jajanan</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    
+    <div class="container my-5">
+    <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="contact-form">
+        <h2 class="mb-4">Contact Us!</h2>
+        <form id="contact-form">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="name" placeholder="Nama lengkap" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="nama@contoh.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">No Telepon</label>
+            <input type="number" class="form-control" id="phone" placeholder="+62-1234-5678-987" required>
+          </div>
+          <div class="mb-4">
+            <label for="message" class="form-label">Pesan</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Masukan Pesan" required></textarea>
+          </div>
+          <button type="submit" class="btn-custom">Kirim</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
