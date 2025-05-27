@@ -1,0 +1,35 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+body {
+      background-color: white;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.btn-custom {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+.btn-custom:hover {
+  background-color: darkorange;
+}
+
+#logo img{
+    height: 60px;
+    width: auto;
+    z-index: 1;
+}
+
