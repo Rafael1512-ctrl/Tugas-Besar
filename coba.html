@@ -5,57 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Hover Card</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-    .card {
-        position: relative;
-        overflow: hidden;
-        height: 800px; 
-        max-width: 500px; 
-        margin: auto;
-    }
-    .card img {
-        height: 100%;
-        object-fit: cover; 
-        transition: opacity 0.3s ease-in-out;
-    }
-    .card:hover img {
-        opacity: 0.5;
-    }
-    .card .card-details {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgba(0, 0, 0, 0.7);
-        color: white;
-        padding: 10px;
-        opacity: 0;
-        transition: opacity 0.3s ease-in-out;
-    }
-    .card:hover .card-details {
-        opacity: 1;
-    }
-</style>
+        <script>
+            fetch('data-makanan.json')
+            .then(res => res.json())
+            .then(data => {
+                const kategoriList = ['halal', 'nonhalal', 'jajanan'];
+                kategoriList.forEach(kat => {
+                const container = document.getElementById(kat + '-cards');
+                const items = data.filter(item => item.kategori === kat);
+                items.forEach(item => {
+                    container.innerHTML += `
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="${item.img}" class="card-img-top" alt="${item.title}">
+                        <div class="card-body">
+                            <h5 class="card-title">${item.title}</h5>
+                            <p class="card-text">${item.desc}</p>
+                            <a href="${item.link}" class="btn btn-warning">Selengkapnya</a>
+                        </div>
+                        </div>
+                    </div>
+                    `;
+                });
+                });
+            });
+        </script>
 </head>
 <body>
-<div>
-    
-</div>
-<div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/Klenteng-Sam-Poo-Kong.jpg" class="card-img-top" alt="Gambar">
-                <div class="card-details">
-                    <h5>Halal</h5>
-                    <p>Tidak mengandung juan</p>
-                    <a href="#" class="btn btn-warning">More Details</a>
-                </div>
-            </div>
-        </div>
+    <div class="container my-5">
+        <h2 id="halal">Halal</h2>
+        <div id="halal-cards" class="row row-cols-1 row-cols-md-3 g-4"></div>
     </div>
-</div>
-
+    <div class="container my-5">
+        <h2 id="nonhalal">Non Halal</h2>
+        <div id="nonhalal-cards" class="row row-cols-1 row-cols-md-3 g-4"></div>
+    </div>
+    <div class="container my-5">
+        <h2 id="jajanan">Jajanan</h2>
+        <div id="jajanan-cards" class="row row-cols-1 row-cols-md-3 g-4"></div>
+    </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

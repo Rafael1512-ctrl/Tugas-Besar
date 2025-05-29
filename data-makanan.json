@@ -1,0 +1,130 @@
+[
+    {
+        "kategori": "halal",
+        "img": "/img/halal/nasiayam.jpg",
+        "title": "Nasi Ayam",
+        "desc": "Nasi lembut dengan ayam berbumbu gurih.",
+        "link": "halal_html/nasi_ayam.html"
+    },
+    {
+        "kategori": "halal",
+        "img": "/img/halal/nasigandul.jpg",
+        "title": "Nasi Gandul",
+        "desc": "Nasi hangat dengan kuah daging bercita rasa rempah.",
+        "link": "halal_html/nasi_gandul.html"
+    },
+    {
+        "kategori": "halal",
+        "img": "/img/halal/Soto Bangkong.jpeg",
+        "title": "Soto Bangkong",
+        "desc": "Soto ayam bening dengan rasa rempah ringan.",
+        "link": "halal_html/Soto_bangkong.html"
+    },
+    {
+        "kategori": "halal",
+        "img": "/img/halal/Bandeng Presto.jpg",
+        "title": "Bandeng Presto",
+        "desc": "Bandeng tanpa duri yang dimasak menggunakan presto. Rasa yang bikin anda kangen!",
+        "link": "halal_html/Bandeng_presto.html"
+    },
+    {
+        "kategori": "halal",
+        "img": "/img/halal/Garang Asem Ayam.jpg",
+        "title": "Garang Asem Ayam",
+        "desc": "Ayam berbumbu asam pedas dibungkus daun pisang, khas Jawa Tengah",
+        "link": "halal_html/Garang_asem.html"
+    },
+    {
+        "kategori": "halal",
+        "img": "/img/halal/tahu gimbal.webp",
+        "title": "Tahu Gimbal",
+        "desc": "Tahu goreng, udang tepung goreng, sayur, yang disiram bumbu kacang. Rasa yang fantastik!",
+        "link": "halal_html/Tahu_gimbal.html"
+    },
+
+    {
+        "kategori": "nonhalal",
+        "img": "/img/nonhalal/samcan-goreng.jpg",
+        "title": "Samcan Goreng",
+        "desc": "Perpaduan kulit renyah, lemak gurih, dan daging lembut—samcan goreng yang bikin lidah bergoyang!",
+        "link": "nonhalal_html/samcan_place.html"
+    },
+    {
+        "kategori": "nonhalal",
+        "img": "/img/nonhalal/babi sambal matah.jpg",
+        "title": "Babi Sambal Matah",
+        "desc": "Daging babi asap yang juicy disajikan dengan sambal matah paling segar dan pedas—bikin nagih!",
+        "link": "nonhalal_html/babi_sambal_matah.html"
+    },
+    {
+        "kategori": "nonhalal",
+        "img": "/img/nonhalal/lapchiong.webp",
+        "title": "Lapchiong",
+        "desc": "Sosis babi manis khas oriental, wangi, gurih, dan pas banget jadi lauk favorit setiap saat.",
+        "link": "nonhalal_html/Lapchiong.html"
+    },
+    {
+        "kategori": "nonhalal",
+        "img": "/img/nonhalal/mie-goreng-chasio.jpg",
+        "title": "Mie Goreng Chasio Siobak",
+        "desc": "Mi goreng gurih ala oriental dengan topping chasio manis dan siobak garing—kombinasi mantap yang sulit dilupakan!",
+        "link": "nonhalal_html/Mie_goreng_chasio.html"
+    },
+    {
+        "kategori": "nonhalal",
+        "img": "/img/nonhalal/nasi-campur.jpg",
+        "title": "Nasi Campur Spesial",
+        "desc": "Sajian lengkap berisi chasio, siobak, telur, dan lauk pilihan lainnya—nasi campur paling spesial di tiap suapan!",
+        "link": "nonhalal_html/nasi_campur.html"
+    },
+    {
+        "kategori": "nonhalal",
+        "img": "/img/nonhalal/sate-babi.jpg",
+        "title": "Sate Babi",
+        "desc": "Tusukan daging babi panggang dengan bumbu khas—empuk, gurih, dan menggoda sejak gigitan pertama!",
+        "link": "nonhalal_html/sate_babi.html"
+    },
+
+    {
+        "kategori": "jajanan",
+        "img": "/img/jajanan/lumpia semarang.jpg",
+        "title": "Lumpia Semarang",
+        "desc": "Lumpia isi rebung,ayam/udang,disajikan dengan saus kental,menggiurkan dan enak di mulut!",
+        "link": "jajanan_html/Lumpia.html"
+    },
+    {
+        "kategori": "jajanan",
+        "img": "/img/jajanan/tahu gimbal.webp",
+        "title": "Tahu Gimbal",
+        "desc": "Tahu goreng, udang tepung goreng, sayur, yang disiram bumbu kacang. Rasa yang fantastik!",
+        "link": "Tahu_gimbal.html"
+    },
+    {
+        "kategori": "jajanan",
+        "img": "/img/jajanan/wingko babat.jpg",
+        "title": "Wingko Babat",
+        "desc": "Kue kelapa parut dan ketan, manis dan legit rasanya!",
+        "link": "jajanan_html/Wingko_babat.html"
+    },
+    {
+        "kategori": "jajanan",
+        "img": "/img/jajanan/Bandeng Presto.jpg",
+        "title": "Bandeng Presto",
+        "desc": "Bandeng tanpa duri yang dimasak menggunakan presto. Rasa yang bikin anda kangen!",
+        "link": "Bandeng_presto.html"
+    },
+    {
+        "kategori": "jajanan",
+        "img": "/img/jajanan/moaci.jpg",
+        "title": "Kue Moaci",
+        "desc": "Kue kenyal isi kacang manis yang dilapisi wijen, lembut di mulut!",
+        "link": "jajanan_html/Kue_Moaci.html"
+    },
+    {
+        "kategori": "jajanan",
+        "img": "/img/jajanan/tahu petis.jpg",
+        "title": "Tahu Petis",
+        "desc": "Tahu goreng isi saus petis hitam,rasa di mulut yang langsung menghantam!",
+        "link": "jajanan_html/Tahu_Petis.html"
+    }
+]   

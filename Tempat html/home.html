@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Kuliner</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/tempat css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="/img/Logo Web.png" alt="logo" style="height:48px; margin-right:12px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Tempat html/home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Tempat html/contactus.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#kategori" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Kategori
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="Kategori.html#halal">Halal</a></li>
+                                <li><a class="dropdown-item" href="Kategori.html#nonhalal">Non Halal</a></li>
+                                <li><a class="dropdown-item" href="Kategori.html#jajanan">Jajanan</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="main">
+        <div id="background"></div>
+        <div id="content">
+            <div id="posisicarousel">
+                    <div id="imgCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#imgCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#imgCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#imgCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/img/bandeng.jpg" class="d-block w-100" alt="Bandeng Presto">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Bandeng Presto</h5>
+                            <p>Bandeng Presto is an Indonesian dish where bandeng is pressure-cooked with spices until its bones become soft, creating a tender, flavorful, and easily edible meal.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/lumpia.jpg" class="d-block w-100" alt="Lumpia">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Lumpia</h5>
+                            <p>Lumpia Semarang is a traditional Indonesian spring roll filled with bamboo shoots, eggs, and shrimp or chicken, served either fresh or deep-fried with a sweet sauce.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/mochi.jpg" class="d-block w-100" alt="Mochi">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Mochi</h5>
+                            <p>Mochi Semarang is a traditional Indonesian snack made of glutinous rice dough filled with sweet peanut paste, coated in sesame seeds, and known for its soft, chewy texture.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#imgCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#imgCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+        </div>
+        <div id="deskripsi">
+            <p>Welcome to Semarang Food Explorer, your ultimate destination for exploring the rich and diverse flavors of Venetie van Java! This website is dedicated to providing comprehensive information about Semarang's unique cuisine from legendary dishes like lumpia, tahu gimbal, and bandeng presto to the vibrant street food scene that offers delicious and affordable treats.</p>
+            <p>Here, visitors can discover top-rated restaurants, read food reviews, and learn about the history and cultural significance behind Semarang's iconic dishes. Additionally, we offer authentic recipes for those who want to recreate traditional flavors at home.</p>
+            <p>Enjoy an interactive culinary experience with restaurant maps, food festival schedules, and exclusive dining promotions. Whether you're a traveler, a local resident, or a passionate foodie, Semarang Food Explorer is here to guide you through a mouthwatering journey across this historically rich city!</p>
+        </div>
+        </div>
+
+        <h1 id="kategori">Kategori</h1>
+        <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+            <div class="col">
+                <div class="card-home">
+                    <img src="/img/lumpia.jpg" class="card-img-top" alt="Gambar">
+                    <div class="card-details p-3">
+                        <h5>Halal</h5>
+                        <p>Makanan halal adalah makanan yang sesuai dengan syariat Islam, tidak mengandung bahan haram, diproses dengan cara yang bersih dan halal, serta memiliki manfaat bagi kesehatan.</p>
+                        <a href="/Tempat html/Kategori.html" class="btn btn-warning">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card-home">
+                    <img src="/img/nonhalal/babi sambal matah.jpg" class="card-img-top" alt="Gambar">
+                    <div class="card-details p-3">
+                        <h5>Non Halal</h5>
+                        <p>Makanan non-halal adalah makanan yang tidak memenuhi kriteria halal dalam Islam, biasanya karena mengandung bahan seperti daging babi, alkohol, atau hewan yang tidak disembelih sesuai syariat Islam.
+                        </p>
+                        <a href="/Tempat html/Kategori.html" class="btn btn-warning">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card-home">
+                    <img src="/img/mochi.jpg" class="card-img-top" alt="Gambar">
+                    <div class="card-details p-3">
+                        <h5>Jajanan</h5>
+                        <p>Tidak mengandung juan</p>
+                        <a href="/Tempat html/Kategori.html" class="btn btn-warning">More Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div> 
+
+    <footer class="text-center text-lg-start text-white" style="background: #db6930;">
+        <div class="container p-4 pb-0">
+            <div class="row align-items-center">
+                <!-- Logo & Deskripsi -->
+                <div class="col-md-4 mb-4 mb-md-0 text-md-start">
+                <img src="/img/Logo Web.png" alt="Logo" style="height:48px; border-radius:8px; margin-bottom:12px;">
+                <p class="mt-2 mb-0" style="font-size: 1rem;">
+                    Info Kuliner Semarang<br>
+                    Jelajahi cita rasa khas Semarang bersama kami!
+                </p>
+                </div>
+                <!-- Navigasi -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="mb-3">Navigasi</h5>
+                <ul class="list-unstyled">
+                    <li><a href="/Tempat html/home.html" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="/Tempat html/Kategori.html" class="text-white text-decoration-none">Kategori</a></li>
+                    <li><a href="/Tempat html/contactus.html" class="text-white text-decoration-none">Contact Us</a></li>
+                </ul>
+                </div>
+                <!-- Sosial Media -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="mb-3">Ikuti Kami</h5>
+                <a href="#" class="btn btn-outline-light btn-floating m-1" role="button"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="btn btn-outline-light btn-floating m-1" role="button"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="btn btn-outline-light btn-floating m-1" role="button"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-outline-light btn-floating m-1" role="button"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="text-center p-3" style="background: rgba(0,0,0,0.15); font-size: 0.95rem;">
+            &copy; 2025 Info Kuliner Semarang &mdash; All Rights Reserved
+        </div>
+    </footer> 
+    
+</body>
+
+
+
+</html>
