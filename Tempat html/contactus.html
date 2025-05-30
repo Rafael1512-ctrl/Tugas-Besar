@@ -1,69 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="/tempat css/main.css" />
     <script src="contactus.js"></script>
-</head>
-<body>
-    <div id="logo"><img src="img/logo.png" alt=""></div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="contactus.html">Contact Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kategori</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Halal</a></li>
-                        <li><a class="dropdown-item" href="#">Non Halal</a></li>
-                        <li><a class="dropdown-item" href="#">Jajanan</a></li>
-                    </ul>
-                    </li>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="/img/Logo Web.png"
+              alt="logo"
+              style="height: 48px; margin-right: 12px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  
+                  href="/Tempat html/home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"  href="/Tempat html/contactus.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#kategori"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Kategori
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="Kategori.html#halal"
+                      >Halal</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Kategori.html#nonhalal"
+                      >Non Halal</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Kategori.html#jajanan"
+                      >Jajanan</a
+                    >
+                  </li>
                 </ul>
-                </div>
-            </div>
-        </nav>
-    
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <div class="container my-5">
-    <div class="row justify-content-center">
-    <div class="col-md-6">
-      <div class="contact-form">
-        <h2 class="mb-4">Contact Us!</h2>
-        <form id="contact-form">
-          <div class="mb-3">
-            <label for="name" class="form-label">Nama</label>
-            <input type="text" class="form-control" id="name" placeholder="Nama lengkap" required>
+      <div class="row justify-content-center">
+        <div class="col-md-7 col-lg-6">
+          <div class="contact-form shadow-lg p-4 rounded-4 bg-white">
+            <h2 class="mb-4 text-center" style="color: #db6930">
+              <i class="fas fa-envelope-open-text me-2"></i>Contact Us!
+            </h2>
+            <form id="contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                <div class="input-group">
+                  <span class="input-group-text"
+                    ><i class="fas fa-user"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Nama lengkap"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <div class="input-group">
+                  <span class="input-group-text"
+                    ><i class="fas fa-envelope"></i
+                  ></span>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="nama@contoh.com"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">No Telepon</label>
+                <div class="input-group">
+                  <span class="input-group-text"
+                    ><i class="fas fa-phone"></i
+                  ></span>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="+62-1234-5678-987"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="mb-4">
+                <label for="message" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  placeholder="Masukan Pesan"
+                  required
+                ></textarea>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-custom btn-lg">
+                  Kirim <i class="fas fa-paper-plane ms-1"></i>
+                </button>
+              </div>
+            </form>
           </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="nama@contoh.com" required>
-          </div>
-          <div class="mb-3">
-            <label for="phone" class="form-label">No Telepon</label>
-            <input type="number" class="form-control" id="phone" placeholder="+62-1234-5678-987" required>
-          </div>
-          <div class="mb-4">
-            <label for="message" class="form-label">Pesan</label>
-            <textarea class="form-control" id="message" rows="3" placeholder="Masukan Pesan" required></textarea>
-          </div>
-          <button type="submit" class="btn-custom">Kirim</button>
-        </form>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-</body>
+
+    <footer
+      class="text-center text-lg-start text-white"
+      style="background: #db6930"
+    >
+      <div class="container p-4 pb-0">
+        <div class="row align-items-center">
+          <!-- Logo & Deskripsi -->
+          <div class="col-md-4 mb-4 mb-md-0 text-md-start">
+            <img
+              src="/img/Logo Web.png"
+              alt="Logo"
+              style="height: 48px; border-radius: 8px; margin-bottom: 12px"
+            />
+            <p class="mt-2 mb-0" style="font-size: 1rem">
+              Info Kuliner Semarang<br />
+              Jelajahi cita rasa khas Semarang bersama kami!
+            </p>
+          </div>
+          <!-- Navigasi -->
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="mb-3">Navigasi</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="/Tempat html/home.html"
+                  class="text-white text-decoration-none"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/Tempat html/Kategori.html"
+                  class="text-white text-decoration-none"
+                  >Kategori</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/Tempat html/contactus.html"
+                  class="text-white text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Sosial Media -->
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="mb-3">Ikuti Kami</h5>
+            <a
+              href="#"
+              class="btn btn-outline-light btn-floating m-1"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              href="#"
+              class="btn btn-outline-light btn-floating m-1"
+              role="button"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a
+              href="#"
+              class="btn btn-outline-light btn-floating m-1"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="#"
+              class="btn btn-outline-light btn-floating m-1"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-center p-3"
+        style="background: rgba(0, 0, 0, 0.15); font-size: 0.95rem"
+      >
+        &copy; 2025 Info Kuliner Semarang &mdash; All Rights Reserved
+      </div>
+    </footer>
+  </body>
 </html>

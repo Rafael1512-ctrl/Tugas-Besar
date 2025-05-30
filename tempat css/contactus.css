@@ -4,7 +4,7 @@
 }
 
 body {
-      background-color: white;
+    background-color: white;
 }
 
 .contact-form {
@@ -24,7 +24,7 @@ body {
 }
 
 .btn-custom:hover {
-  background-color: darkorange;
+    background-color: darkorange;
 }
 
 #logo img{
