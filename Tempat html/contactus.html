@@ -10,11 +10,12 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="/tempat css/main.css" />
-    <script src="contactus.js"></script>
+    <script src="/Tempat JS/contactus.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   </head>
   <body>
     <header>
@@ -102,13 +103,12 @@
               <div class="mb-3">
                 <label for="name" class="form-label">Nama</label>
                 <div class="input-group">
-                  <span class="input-group-text"
-                    ><i class="fas fa-user"></i
-                  ></span>
+                  <span class="input-group-text"><i class="fas fa-user"></i></span>
                   <input
                     type="text"
                     class="form-control"
                     id="name"
+                    name="name"
                     placeholder="Nama lengkap"
                     required
                   />
@@ -117,13 +117,12 @@
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
                 <div class="input-group">
-                  <span class="input-group-text"
-                    ><i class="fas fa-envelope"></i
-                  ></span>
+                  <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                   <input
                     type="email"
                     class="form-control"
                     id="email"
+                    name="email"
                     placeholder="nama@contoh.com"
                     required
                   />
@@ -132,13 +131,12 @@
               <div class="mb-3">
                 <label for="phone" class="form-label">No Telepon</label>
                 <div class="input-group">
-                  <span class="input-group-text"
-                    ><i class="fas fa-phone"></i
-                  ></span>
+                  <span class="input-group-text"><i class="fas fa-phone"></i></span>
                   <input
                     type="tel"
                     class="form-control"
                     id="phone"
+                    name="phone"
                     placeholder="+62-1234-5678-987"
                     required
                   />
@@ -149,6 +147,7 @@
                 <textarea
                   class="form-control"
                   id="message"
+                  name="message"
                   rows="3"
                   placeholder="Masukan Pesan"
                   required
