@@ -87,21 +87,21 @@
 
     {
         "kategori": "jajanan",
-        "img": "/img/jajanan/lumpia semarang.jpg",
-        "title": "Lumpia Semarang",
-        "desc": "Lumpia isi rebung,ayam/udang,disajikan dengan saus kental,menggiurkan dan enak di mulut!",
-        "link": "jajanan_html/Lumpia.html"
+        "img": "/img/jajanan/lumpiasemarang.jpg",
+        "title": "Lunpia Semarang",
+        "desc": "Lunpia isi rebung,ayam/udang,disajikan dengan saus kental,menggiurkan dan enak di mulut!",
+        "link": "jajanan_html/LumpiaSemarang.html"
     },
     {
         "kategori": "jajanan",
-        "img": "/img/jajanan/tahu gimbal.webp",
-        "title": "Tahu Gimbal",
-        "desc": "Tahu goreng, udang tepung goreng, sayur, yang disiram bumbu kacang. Rasa yang fantastik!",
-        "link": "Tahu_gimbal.html"
+        "img": "/img/jajanan/wedangtahu.jpg",
+        "title": "Wedang Tahu",
+        "desc": "Terbuat dari kembang tahu (sejenis tahu sutra atau tahu yang dibekukan) dan disiram dengan kuah jahe hangat!",
+        "link": "WedangTahu.html"
     },
     {
         "kategori": "jajanan",
-        "img": "/img/jajanan/wingko babat.jpg",
+        "img": "/img/jajanan/wingkobabat.jpeg",
         "title": "Wingko Babat",
         "desc": "Kue kelapa parut dan ketan, manis dan legit rasanya!",
         "link": "jajanan_html/Wingko_babat.html"
@@ -115,14 +115,14 @@
     },
     {
         "kategori": "jajanan",
-        "img": "/img/jajanan/moaci.jpg",
+        "img": "/img/jajanan/moaci semarang.jpg",
         "title": "Kue Moaci",
         "desc": "Kue kenyal isi kacang manis yang dilapisi wijen, lembut di mulut!",
-        "link": "jajanan_html/Kue_Moaci.html"
+        "link": "jajanan_html/Moaci.html"
     },
     {
         "kategori": "jajanan",
-        "img": "/img/jajanan/tahu petis.jpg",
+        "img": "/img/jajanan/tahupetis.jpg",
         "title": "Tahu Petis",
         "desc": "Tahu goreng isi saus petis hitam,rasa di mulut yang langsung menghantam!",
         "link": "jajanan_html/Tahu_Petis.html"
