@@ -15,10 +15,10 @@
     },
     {
         "kategori": "halal",
-        "img": "/img/halal/Soto Bangkong.jpeg",
-        "title": "Soto Bangkong",
-        "desc": "Soto ayam bening dengan rasa rempah ringan.",
-        "link": "halal_html/Soto_bangkong.html"
+        "img": "/img/halal/Soto Semarang.webp",
+        "title": "Soto Semarang",
+        "desc": "Soto Semarang adalah soto bening khas Semarang yang berisi suwiran ayam, bihun, dan taburan bawang goreng.",
+        "link": "halal_html/Soto_Semarang.html"
     },
     {
         "kategori": "halal",
@@ -58,10 +58,10 @@
     },
     {
         "kategori": "nonhalal",
-        "img": "/img/nonhalal/lapchiong.webp",
-        "title": "Lapchiong",
-        "desc": "Sosis babi manis khas oriental, wangi, gurih, dan pas banget jadi lauk favorit setiap saat.",
-        "link": "nonhalal_html/Lapchiong.html"
+        "img": "/img/nonhalal/Babi Panggang Merah.jpeg",
+        "title": "Babi Panggang Merah",
+        "desc": "Babi panggang merah adalah daging empuk bercita rasa manis-gurih dengan aroma khas yang menggoda.",
+        "link": "nonhalal_html/Babi_Panggang_Merah.html"
     },
     {
         "kategori": "nonhalal",
