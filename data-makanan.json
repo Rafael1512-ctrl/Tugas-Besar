@@ -108,10 +108,10 @@
     },
     {
         "kategori": "jajanan",
-        "img": "/img/jajanan/Bandeng Presto.jpg",
-        "title": "Bandeng Presto",
-        "desc": "Bandeng tanpa duri yang dimasak menggunakan presto. Rasa yang bikin anda kangen!",
-        "link": "Bandeng_presto.html"
+        "img": "/img/jajanan/PisangPlenet.jpg",
+        "title": "Pisang Plenet",
+        "desc": "Pisang yang dipipihkan (diplenet) lalu dibakar dan diberi berbagai toping, seperti selai, cokelat, atau gula halus.",
+        "link": "jajanan_html/PisangPlenet.html"
     },
     {
         "kategori": "jajanan",
