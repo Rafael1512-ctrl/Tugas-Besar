@@ -148,18 +148,33 @@ body {
     animation: fadeIn 1s ease-in-out;
 }
 .slogan{
-    font-size: 1.8em;
-    font-weight: bold;
+    font-size: 2.2em;
+    font-weight: 900;
     text-align: center;
-    color: #E44D26; 
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
-    padding: 10px;
-    border-radius: 8px;
-    background: linear-gradient(to right, #FFD700, #FF5733); 
+    color: #db6930;
+    letter-spacing: 2px;
+    text-shadow:
+        0 4px 16px #fff3e0,
+        0 2px 8px #ffb347,
+        2px 2px 0 #fff3e0,
+        0 0 8px #fff;
+    padding: 18px 32px;
+    border-radius: 18px;
+    background: linear-gradient(90deg, #fffbe7 0%, #ffe0c2 100%);
     display: inline-block;
+    border: 2px solid #db6930;
+    box-shadow: 0 4px 24px rgba(219,105,48,0.10);
+    animation: pulseSlogan 1.5s infinite alternate;
+    transition: transform 0.2s;
+}
+.slogan:hover {
+    transform: scale(1.05) rotate(-2deg);
+    box-shadow: 0 8px 32px rgba(219,105,48,0.18), 0 2px 8px #ffb347;
 }
 
-
+@keyframes pulseSlogan {
+    0% { box-shadow: 0 4px 24px rgba(219,105,48,0.10); }
+}
 
 /* BUTTON & LINK */
 #jelajahi {
