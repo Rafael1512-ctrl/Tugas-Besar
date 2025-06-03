@@ -247,6 +247,7 @@ body {
     height: 500px;
     max-width: 350px;
     margin: auto;
+    border-radius: 10px;
 }
 .card-home img {
     height: 100%;
