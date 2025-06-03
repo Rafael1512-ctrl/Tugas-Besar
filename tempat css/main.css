@@ -147,6 +147,19 @@ body {
     text-align: center;
     animation: fadeIn 1s ease-in-out;
 }
+.slogan{
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    color: #E44D26; 
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+    padding: 10px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #FFD700, #FF5733); 
+    display: inline-block;
+}
+
+
 
 /* BUTTON & LINK */
 #jelajahi {
