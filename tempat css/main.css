@@ -349,3 +349,37 @@ footer .btn-outline-light:hover {
     padding-bottom: 4px;
     letter-spacing: 1px;
 }
+
+/* Carousel khusus halaman home sebagai hero */
+.home-carousel-wrapper {
+    margin-bottom: 3rem;
+    margin-top: 0;
+    padding: 0;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    position: relative;
+    z-index: 1;
+}
+
+.home-carousel {
+    box-shadow: 0 8px 40px rgba(219,105,48,0.18), 0 2px 8px #ffb347;
+    overflow: hidden;
+    border-radius: 0 0 40px 40px;
+}
+
+.home-carousel .carousel-item {
+    height: 540px;
+    max-height: 85vh;
+    overflow: visible; /* penting agar caption tidak terpotong */
+}
+
+.home-carousel .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.82) contrast(1.08);
+}
+

@@ -44,47 +44,48 @@
         </nav>
     </header>
 
-        <!-- CAROUSEL -->
-        <div class="container my-4">
-            <div id="imgCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <!-- HERO CAROUSEL -->
+        <div class="carousel-wrapper home-carousel-wrapper" style="width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw;">
+            <div id="imgCarousel" class="carousel slide carousel-dark w-100 home-carousel" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                <button type="button" data-bs-target="#imgCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#imgCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#imgCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#imgCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#imgCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#imgCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/img/1.jpg" class="d-block w-100" alt="Bandeng Presto">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Kota Lama</h5>
-                    <p>Kota Lama Semarang adalah kawasan bersejarah yang memadukan arsitektur kolonial Belanda dengan suasana klasik yang menawan, menghadirkan pesona masa lampau di tengah kehidupan modern.</p>
+                    <div class="carousel-item active">
+                        <img src="/img/1.jpg" class="d-block w-100" alt="Kota Lama">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Kota Lama</h5>
+                            <p>Kota Lama Semarang adalah kawasan bersejarah yang memadukan arsitektur kolonial Belanda dengan suasana klasik yang menawan, menghadirkan pesona masa lampau di tengah kehidupan modern.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/img/2(2).jpg" class="d-block w-100" alt="Lumpia">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Simpang Lima</h5>
-                    <p>Simpang Lima adalah alun-alun ikonik di Semarang yang menjadi pusat keramaian dengan perpaduan pusat perbelanjaan, kuliner khas, dan ruang terbuka yang selalu hidup dari pagi hingga malam.</p>
+                    <div class="carousel-item">
+                        <img src="/img/2(2).jpg" class="d-block w-100" alt="Simpang Lima">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Simpang Lima</h5>
+                            <p>Simpang Lima adalah alun-alun ikonik di Semarang yang menjadi pusat keramaian dengan perpaduan pusat perbelanjaan, kuliner khas, dan ruang terbuka yang selalu hidup dari pagi hingga malam.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/img/Klenteng-Sam-Poo-Kong.webp" class="d-block w-100" alt="Mochi">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Klenteng-Sam-Poo-Kong</h5>
-                    <p>Klenteng Sam Poo Kong adalah tempat ibadah bersejarah di Semarang yang memadukan budaya Tionghoa dan Jawa, dihiasi arsitektur megah serta nuansa spiritual yang menghormati perjalanan Laksamana Cheng Ho.</p>
+                    <div class="carousel-item">
+                        <img src="/img/Klenteng-Sam-Poo-Kong.webp" class="d-block w-100" alt="Klenteng Sam Poo Kong">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Klenteng Sam Poo Kong</h5>
+                            <p>Klenteng Sam Poo Kong adalah tempat ibadah bersejarah di Semarang yang memadukan budaya Tionghoa dan Jawa, dihiasi arsitektur megah serta nuansa spiritual yang menghormati perjalanan Laksamana Cheng Ho.</p>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#imgCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#imgCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
+        
     <div class="container my-5">
         <div id="deskripsi">
             <p>Sugeng rawuh ing Semarang Food Explorer, tujuan utama bagi pecinta kuliner yang ingin menjelajahi kekayaan rasa khas Venetie van Java! Situs ini menghadirkan informasi lengkap mengenai kuliner unik Semarang, mulai dari hidangan legendaris seperti lumpia, tahu gimbal, dan bandeng presto, hingga jajanan kaki lima yang murah meriah tetapi kaya rasa.</p>
@@ -100,7 +101,7 @@
         </div>
         
 
-        <h1 id="kategori">Kategori</h1>
+        <h1 id="kategori" class="section-title">Kategori</h1>
         <div class="container my-5">
             <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
                 <div class="col">
