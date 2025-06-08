@@ -81,12 +81,13 @@ body {
 .carousel,
 .carousel-inner,
 .carousel-item {
-    height: 400px;
-    max-height: 60vh;
+    height: 600px;
+    max-height: 90vh;
 }
 
 .carousel-item img {
     height: 100%;
+    min-height: 400px;
     width: 100%;
     object-fit: cover;
     border-radius: 16px;
@@ -350,36 +351,50 @@ footer .btn-outline-light:hover {
     letter-spacing: 1px;
 }
 
-/* Carousel khusus halaman home sebagai hero */
-.home-carousel-wrapper {
-    margin-bottom: 3rem;
-    margin-top: 0;
-    padding: 0;
-    width: 100vw;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    position: relative;
+/* HERO SECTION */
+.hero-bg {
+    height: 600px;
+    background: url('/img/kota lama.jpg') center center / cover no-repeat;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.45);
     z-index: 1;
 }
-
-.home-carousel {
-    box-shadow: 0 8px 40px rgba(219,105,48,0.18), 0 2px 8px #ffb347;
-    overflow: hidden;
-    border-radius: 0 0 40px 40px;
+.hero-content {
+    z-index: 2;
+}
+.hero-title {
+    text-shadow: 0 2px 16px #000;
+}
+.hero-subtitle {
+    text-shadow: 0 2px 8px #000;
 }
 
-.home-carousel .carousel-item {
-    height: 540px;
-    max-height: 85vh;
-    overflow: visible; /* penting agar caption tidak terpotong */
+/* Dropdown: warna hover sesuai tema */
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    background-color: #db6930 !important; /* warna oranye tema kamu */
+    color: #fff !important;
 }
 
-.home-carousel .carousel-item img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    filter: brightness(0.82) contrast(1.08);
+/* Dropdown agar tidak terpotong kanan */
+.dropdown-menu {
+    right: auto;
+    left: 0;
+    min-width: 180px;
+    z-index: 1050;
+    overflow: visible;
 }
+
+/* Dropdown agar tidak terpotong kanan pada layar besar */
+@media (min-width: 992px) {
+    .navbar .dropdown-menu {
+        left: auto;
+        right: 0;
+        min-width: 200px;
+    }
+}
+
 
