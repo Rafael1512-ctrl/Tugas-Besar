@@ -14,7 +14,7 @@ function renderCardsLoop(container, items) {
         container.innerHTML += `
             <div class="col">
                 <div class="card h-100">
-                    <img src="${item.img}" class="card-img-top" alt="${item.title}">
+                    <img src="../${item.img}" class="card-img-top" alt="${item.title}">
                     <div class="card-body">
                         <h5 class="card-title">${item.title}</h5>
                         <p class="card-text">${item.desc}</p>
