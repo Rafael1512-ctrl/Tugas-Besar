@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/tempat css/tempat.css">
 </head>
 <body>
-    <div class="position-absolute" style="top:100px; left:16px; ">
+    <div class="btn-back">
         <a href="/Tempat html/Kategori.html" class="btn btn-warning">
             &larr;
         </a>
@@ -20,7 +20,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand d-flex align-items-center" href="#">
-                    <img src="/img/Logo Web.png" alt="logo" style="height:48px; margin-right:12px;">
+                    <img src="/img/Logo Web.png" alt="logo" class="navbar-logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="/Tempat html/home.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="/Tempat html/home.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/Tempat html/contactus.html">Contact Us</a>
@@ -38,9 +38,9 @@
                                 Kategori
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="/Tempat html/Kategori.html#halal">Halal</a></li>
-                                <li><a class="dropdown-item" href="/Tempat html/Kategori.html#nonhalal">Non Halal</a></li>
-                                <li><a class="dropdown-item" href="/Tempat html/Kategori.html#jajanan">Jajanan</a></li>
+                                <li><a class="dropdown-item" href="/tempat html/Kategori.html#halal">Halal</a></li>
+                                <li><a class="dropdown-item" href="/tempat html/Kategori.html#nonhalal">Non Halal</a></li>
+                                <li><a class="dropdown-item" href="/tempat html/Kategori.html#jajanan">Jajanan</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -50,7 +50,7 @@
     </header>
 
     <div id="container">
-        <h1 class="mb-4" style="color:#db6930; font-weight:700;">Best Recommendation</h1>
+        <h1 class="mb-4 rekom-title">Best Recommendation</h1>
 
         <section class="rekomendasi-card">
             <img class="rekomendasi-img" src="/img/tempat_nonhalal/wm kelengan1.jpg" alt="WM Kelengan">
@@ -88,16 +88,16 @@
             </div>
         </section>
     </div>
-    <footer class="text-center text-lg-start text-white" style="background: #db6930;">
+    <footer class="text-center text-lg-start text-white footer-bg">
         <div class="container p-4 pb-0">
             <div class="row align-items-center">
                 <!-- Logo & Deskripsi -->
                 <div class="col-md-4 mb-4 mb-md-0 text-md-start">
-                <img src="/img/Logo Web.png" alt="Logo" style="height:48px; border-radius:8px; margin-bottom:12px;">
-                <p class="mt-2 mb-0" style="font-size: 1rem;">
-                    Semarang Food Explorer<br>
-                    Jelajahi cita rasa khas Semarang bersama kami!
-                </p>
+                    <img src="/img/Logo Web.png" alt="Logo" class="footer-logo">
+                    <p class="mt-2 mb-0 footer-desc">
+                        Semarang Food Explorer<br>
+                        Jelajahi cita rasa khas Semarang bersama kami!
+                    </p>
                 </div>
                 <!-- Navigasi -->
                 <div class="col-md-4 mb-4 mb-md-0">
@@ -118,9 +118,9 @@
                 </div>
             </div>
             </div>
-            <div class="text-center p-3" style="background: rgba(0,0,0,0.15); font-size: 0.95rem;">
-            &copy; 2025 Semarang Food Explorer &mdash; All Rights Reserved
-        </div>
+            <div class="text-center p-3 footer-copyright">
+                &copy; 2025 Semarang Food Explorer &mdash; All Rights Reserved
+            </div>
     </footer> 
 </body>
 </html>

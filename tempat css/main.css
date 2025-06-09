@@ -1,7 +1,14 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #fff3e0 0%, #ffe0c2 100%);
+    padding-top: 100px;
+    text-align: center;
+    color: #222;
 }
 
 /* HEADER & NAVBAR */
@@ -17,13 +24,6 @@ header {
     border-radius: 0 0 20px 20px;
     padding: 0 32px;
     transition: background 0.3s;
-}
-
-body {
-    background: linear-gradient(135deg, #fff3e0 0%, #ffe0c2 100%);
-    padding-top: 100px;
-    text-align: center;
-    color: #222;
 }
 
 .navbar {
@@ -50,11 +50,13 @@ body {
     margin-right: 16px;
     transition: color 0.2s;
 }
+
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
     color: #db6930 !important;
 }
 
+/* Responsive Navbar */
 @media (max-width: 991px) {
     header {
         padding: 0 10px;
@@ -93,6 +95,7 @@ body {
     border-radius: 16px;
     transition: transform 0.4s;
 }
+
 .carousel-item img:hover {
     transform: scale(1.03);
 }
@@ -108,18 +111,22 @@ body {
     bottom: 30px;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
+
 .carousel-caption h5,
 .carousel-caption p {
     color: #fff !important;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(100%);
 }
+
 .carousel-indicators [data-bs-target] {
     background-color: white;
 }
+
 @media (max-width: 768px) {
     #imgCarousel,
     .carousel,
@@ -136,7 +143,7 @@ body {
     }
 }
 
-/* DESKRIPSI */
+/* DESKRIPSI & SLOGAN */
 #deskripsi {
     background: #fa812f;
     color: white;
@@ -148,7 +155,8 @@ body {
     text-align: center;
     animation: fadeIn 1s ease-in-out;
 }
-.slogan{
+
+.slogan {
     font-size: 2.2em;
     font-weight: 900;
     text-align: center;
@@ -168,6 +176,7 @@ body {
     animation: pulseSlogan 1.5s infinite alternate;
     transition: transform 0.2s;
 }
+
 .slogan:hover {
     transform: scale(1.05) rotate(-2deg);
     box-shadow: 0 8px 32px rgba(219,105,48,0.18), 0 2px 8px #ffb347;
@@ -184,6 +193,7 @@ body {
     background-color: rgb(255, 174, 22);
     border: none;
 }
+
 #jelajahi a {
     display: inline-block;
     padding: 12px 20px;
@@ -194,6 +204,7 @@ body {
     border-radius: 5px;
     transition: background 0.3s ease-in-out;
 }
+
 #jelajahi a:hover {
     background: #d14545;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -205,17 +216,20 @@ body {
     flex-direction: column;
     height: 420px;
 }
+
 .card {
     border: none;
     border-radius: 16px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.07);
     transition: transform 0.2s, box-shadow 0.2s;
 }
+
 .card:hover {
     transform: translateY(-8px) scale(1.03);
     box-shadow: 0 8px 32px rgba(219,105,48,0.15);
     z-index: 2;
 }
+
 .card-img-top {
     object-fit: cover;
     height: 280px;
@@ -224,19 +238,23 @@ body {
     border-top-right-radius: 0.5rem;
     border-radius: 16px 16px 0 0;
 }
+
 .card-body {
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .card-title {
     margin-bottom: 0.5rem;
 }
+
 .card-text {
     flex-grow: 1;
     margin-bottom: 1rem;
 }
+
 .card .btn {
     align-self: flex-start;
 }
@@ -250,14 +268,17 @@ body {
     margin: auto;
     border-radius: 10px;
 }
+
 .card-home img {
     height: 100%;
     object-fit: cover;
     transition: opacity 0.3s;
 }
+
 .card-home:hover img {
     opacity: 0.5;
 }
+
 .card-home .card-details {
     position: absolute;
     bottom: 0;
@@ -269,6 +290,7 @@ body {
     opacity: 0;
     transition: opacity 0.3s;
 }
+
 .card-home:hover .card-details {
     opacity: 1;
 }
@@ -280,6 +302,7 @@ body {
     border: none;
     color: white;
 }
+
 .btn-warning:hover,
 .btn-primary:hover {
     background-color: #a52a2a;
@@ -289,17 +312,21 @@ body {
 .my-5 {
     margin-bottom: 0px !important;
 }
+
 #judul {
     justify-items: center;
 }
+
 #main {
     position: relative;
     padding: 30px;
 }
+
 #content {
     position: relative;
     color: white;
 }
+
 .contact-form {
     background: #fff;
     padding: 32px 28px;
@@ -307,11 +334,13 @@ body {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     border: 1px solid #f3e2d0;
 }
+
 .input-group-text {
     background: #fff3e0;
     color: #db6930;
     border: none;
 }
+
 .btn-custom {
     background-color: #db6930;
     color: #fff;
@@ -321,26 +350,31 @@ body {
     font-weight: 600;
     transition: background 0.2s;
 }
+
 .btn-custom:hover {
     background-color: #a52a2a;
     color: #fff;
 }
 
+/* FOOTER */
 footer {
     background-color: #db6930;
     margin-top: 48px;
     border-top: 4px solid #fff3e0;
     padding-top: 32px;
 }
+
 footer .btn-outline-light {
     border-radius: 50%;
     border-width: 2px;
     transition: background 0.2s, color 0.2s;
 }
+
 footer .btn-outline-light:hover {
     background: #fff;
     color: #db6930 !important;
 }
+
 .section-title {
     color: #db6930;
     font-weight: 700;
@@ -356,30 +390,33 @@ footer .btn-outline-light:hover {
     height: 600px;
     background: url('/img/kota lama.jpg') center center / cover no-repeat;
 }
+
 .hero-overlay {
     position: absolute;
     top: 0; left: 0; width: 100%; height: 100%;
     background: rgba(0,0,0,0.45);
     z-index: 1;
 }
+
 .hero-content {
     z-index: 2;
 }
+
 .hero-title {
     text-shadow: 0 2px 16px #000;
 }
+
 .hero-subtitle {
     text-shadow: 0 2px 8px #000;
 }
 
-/* Dropdown: warna hover sesuai tema */
+/* DROPDOWN */
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item:focus {
-    background-color: #db6930 !important; /* warna oranye tema kamu */
+    background-color: #db6930 !important;
     color: #fff !important;
 }
 
-/* Dropdown agar tidak terpotong kanan */
 .dropdown-menu {
     right: auto;
     left: 0;
@@ -388,13 +425,38 @@ footer .btn-outline-light:hover {
     overflow: visible;
 }
 
-/* Dropdown agar tidak terpotong kanan pada layar besar */
 @media (min-width: 992px) {
     .navbar .dropdown-menu {
         left: auto;
         right: 0;
         min-width: 200px;
     }
+}
+
+/* NAVBAR & FOOTER LOGO */
+.navbar-logo {
+    height: 48px;
+    margin-right: 12px;
+}
+
+.footer-logo {
+    height: 48px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+/* FOOTER DESC & COPYRIGHT */
+.footer-desc {
+    font-size: 1rem;
+}
+
+.footer-copyright {
+    background: rgba(0,0,0,0.15);
+    font-size: 0.95rem;
+}
+
+.footer-bg {
+    background: #db6930 !important;
 }
 
 
