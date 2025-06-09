@@ -43,8 +43,7 @@ button a {
     box-shadow: 0 4px 24px rgba(219, 105, 48, 0.10);
     margin-bottom: 32px;
     padding: 24px;
-    align-items: center;
-    transition: box-shadow 0.2s, transform 0.2s;
+    align-items: stretch; 
 }
 
 .rekomendasi-card:hover {
@@ -53,11 +52,17 @@ button a {
 }
 
 .rekomendasi-img {
-    width: 180px;
-    height: 180px;
+    width: 180px !important;
+    height: 180px !important;
+    object-fit: cover !important;
     border-radius: 12px;
-    object-fit: cover;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.rekomendasi-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .rekomendasi-info h2 {
@@ -83,7 +88,7 @@ button a {
 }
 
 .rekomendasi-btn {
-    margin-top: 12px;
+    margin-top: auto; 
 }
 
 .rekomendasi-btn a {
@@ -104,9 +109,9 @@ button a {
 
 .btn-back {
     position: absolute;
-    top: 100px;
+    top: 110px;
     left: 16px;
-    z-index: 1050;
+    z-index: 50;
 }
 
 .rekom-title {
