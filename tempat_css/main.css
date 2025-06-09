@@ -388,7 +388,7 @@ footer .btn-outline-light:hover {
 /* HERO SECTION */
 .hero-bg {
     height: 600px;
-    background: url('/img/kota lama.jpg') center center / cover no-repeat;
+    background: url('../img/kota_lama.jpg') center center / cover no-repeat;
 }
 
 .hero-overlay {
