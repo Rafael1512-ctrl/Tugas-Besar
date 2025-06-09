@@ -25,3 +25,15 @@ function renderCardsLoop(container, items) {
         `;
     }
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+        if (window.location.hash) {
+            const el = document.querySelector(window.location.hash);
+            if (el) {
+                const y = el.getBoundingClientRect().top + window.pageYOffset - 110; // 110px offset header
+                window.scrollTo({top: y, behavior: "smooth"});
+            }
+        }
+    }, 500);
+});
