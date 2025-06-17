@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (window.location.hash) {
             const el = document.querySelector(window.location.hash);
             if (el) {
-                const y = el.getBoundingClientRect().top + window.pageYOffset - 110; // 110px offset header
+                const y = el.getBoundingClientRect().top + window.pageYOffset - 110; 
                 window.scrollTo({top: y, behavior: "smooth"});
             }
         }
