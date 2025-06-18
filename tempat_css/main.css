@@ -476,6 +476,12 @@ footer .btn-outline-light:hover {
     padding-bottom: 4px;
     letter-spacing: 1px;
 }
+.footer-social a {
+    font-size: 2em !important;
+    width: 48px;
+    height: 48px;
+    line-height: 46px;
+}
 
 /* HERO SECTION */
 .hero-bg {
@@ -532,9 +538,10 @@ footer .btn-outline-light:hover {
 }
 
 .footer-logo {
-    height: 48px;
+    height: 60px;
     border-radius: 8px;
     margin-bottom: 12px;
+    background-color: white;
 }
 
 /* FOOTER DESC & COPYRIGHT */
