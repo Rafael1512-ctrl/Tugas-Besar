@@ -118,7 +118,13 @@ button a {
     color: #db6930;
     font-weight: 700;
 }
-
+button.navbar-toggler {
+    height: 39.6px ;
+    width: 55.6px;
+}
+.navbar-toggler {
+    padding: 0px!important;
+}
 @media (max-width: 768px) {
     .rekomendasi-card {
         flex-direction: column;
